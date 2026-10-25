@@ -1,0 +1,19 @@
+{
+  "name": "book-price-pipeline-backend",
+  "version": "2.0.0",
+  "description": "Book Price Comparison Pipeline - Multi-source aggregator with historical tracking",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "node-cron": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express-rate-limit": "^7.1.4"
+  }
+}
